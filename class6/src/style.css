@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  .container{
+      display: flex;
+      gap: 15px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h1{
+          padding: 10px;
+      }
+      .select{
+          padding-bottom:20px;
+          form{
+              display: flex;
+              gap: 10px;
+              input:checked+label{
+                  border-bottom:2px solid black ;
+              }
+              label{
+                  padding: 0px 3px;
+                  color: #dc9936;
+              }
+              input{
+                  display: none;
+              }
+          }
+      }
+  }
+  .item {
+    display: flex;
+    width: 530px;
+    gap: 10px;
+    img {
+      width: 250px;
+      height: 200px;
+      border: 3px solid #e7a84b;
+    }
+    .itemDetails {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      flex: 1;
+      .itemName {
+          border-bottom: 1px solid black  ;
+        padding-bottom: 2px;
+        display: flex;
+        justify-content: space-between;
+        span{
+          color: #dc9936;
+        }
+      }
+    }
+  }
+  .images{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      flex-wrap: wrap;
+  }
+  
